@@ -5,3 +5,4 @@ LABEL EMPLOYEE="Bhargavi"\
       JOB="Devops"\
       LOCATION="Reading"
 
+EXPOSE 8080/tcp
