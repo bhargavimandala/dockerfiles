@@ -1,6 +1,7 @@
 FROM almalinux
 RUN adduser nginx
 USER nginx
-RUN touch /tmp/hello.txt
+WORKDIR /tmp
+RUN touch hello.txt
 #CMD ["google.com"]
 #ENTRYPOINT [ "ping", "-c5"]
